@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">subject</string>
+    <string name="app_name">SubjectGo</string>
+    <string name="subject1">Administració Sistemes Operatius</string>
+    <string name="subject1_desc">Asignatura dedicada al coneixement de Kernels</string>
 </resources>
