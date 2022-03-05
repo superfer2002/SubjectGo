@@ -44,7 +44,7 @@
             android:src="@drawable/aso_logo" />
 
         <Button
-            android:id="@+id/subject1"
+
             android:text="@string/subject1"
             android:layout_width="400dp"
             android:layout_height="50dp"
@@ -77,11 +77,11 @@
             android:layout_height="106dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
-            android:src="@drawable/aso_logo" />
+            android:src="@drawable/entorns3D" />
 
         <Button
             android:id="@+id/subject2"
-            android:text="@string/subject1"
+            android:text="@string/subject2"
             android:layout_width="400dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
@@ -113,11 +113,11 @@
             android:layout_height="106dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
-            android:src="@drawable/aso_logo" />
+            android:src="@drawable/java" />
 
         <Button
             android:id="@+id/subject3"
-            android:text="@string/subject1"
+            android:text="@string/subject3"
             android:layout_width="400dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
