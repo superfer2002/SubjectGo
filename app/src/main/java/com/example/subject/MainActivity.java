@@ -7,32 +7,34 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
 
     private Button subject1;
     private Button subject2;
     private Button subject3;
+    private ArrayList<Subject> subjectArrayList = new ArrayList<>();
+    private ArrayList<Integer> infoArrayList = new ArrayList<>();
+
+    private void fillSubjects () {
+
+        subjectArrayList.add(new Subject(R.string.subject1, R.string.subject1_LongDesc, 6, R.string.subject1_teacher));
+        subjectArrayList.add(new Subject(R.string.subject2, R.string.subject2_LongDesc, 6, R.string.subject2_teacher));
+        subjectArrayList.add(new Subject(R.string.subject3, R.string.subject3_LongDesc, 6, R.string.subject3_teacher));
+
+    }
 
     private void changeActivity (int subjectNumber) {
 
         Intent intent = new Intent(this, SubjectActivity.class);
 
-        switch (subjectNumber) {
+        infoArrayList.add(subjectArrayList.get(subjectNumber).getTitle());
+        infoArrayList.add(subjectArrayList.get(subjectNumber).getDescription());
+        infoArrayList.add(subjectArrayList.get(subjectNumber).getCredits());
+        infoArrayList.add(subjectArrayList.get(subjectNumber).getTitle());
 
-            case 1:
-                intent.putExtra("1", "1");
-                break;
-
-            case 2:
-                intent.putExtra("2", "2");
-                break;
-
-            case 3:
-                intent.putExtra("3", "3");
-                break;
-
-        }
-
+        intent.putExtra("activityNumber", infoArrayList);
         startActivity(intent);
 
     }
@@ -43,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         subject1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                changeActivity(1);
+                changeActivity(0);
             }
         });
 
@@ -51,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         subject2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                changeActivity(2);
+                changeActivity(1);
             }
         });
 
@@ -59,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         subject3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                changeActivity(3);
+                changeActivity(2);
             }
         });
 
@@ -70,5 +72,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setButtons();
+        fillSubjects();
     }
 }

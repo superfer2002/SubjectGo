@@ -44,7 +44,7 @@
             android:src="@drawable/aso_logo" />
 
         <Button
-
+            android:id="@+id/subject1"
             android:text="@string/subject1"
             android:layout_width="400dp"
             android:layout_height="50dp"
