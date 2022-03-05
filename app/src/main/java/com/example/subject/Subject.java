@@ -1,23 +1,23 @@
 package com.example.subject;
 
 public class Subject {
-    String title;
-    String description;
+    int title;
+    int description;
     int credits;
-    String teacher;
+    int teacher;
 
-    public Subject(String title, String description, int credits, String teacher) {
+    public Subject(int title, int description, int credits, int teacher) {
         this.title = title;
         this.description = description;
         this.credits = credits;
         this.teacher = teacher;
     }
 
-    public String getTitle() {
+    public int getTitle() {
         return title;
     }
 
-    public String getDescription() {
+    public int getDescription() {
         return description;
     }
 
@@ -25,7 +25,7 @@ public class Subject {
         return credits;
     }
 
-    public String getTeacher() {
+    public int getTeacher() {
         return teacher;
     }
 }
