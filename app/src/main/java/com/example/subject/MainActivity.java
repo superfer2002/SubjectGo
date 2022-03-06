@@ -32,10 +32,11 @@ public class MainActivity extends AppCompatActivity {
         infoArrayList.add(subjectArrayList.get(subjectNumber).getTitle());
         infoArrayList.add(subjectArrayList.get(subjectNumber).getDescription());
         infoArrayList.add(subjectArrayList.get(subjectNumber).getCredits());
-        infoArrayList.add(subjectArrayList.get(subjectNumber).getTitle());
+        infoArrayList.add(subjectArrayList.get(subjectNumber).getTeacher());
 
         intent.putExtra("activityNumber", infoArrayList);
         startActivity(intent);
+        infoArrayList.clear(); //IMPORTANT PER A NETEJAR L'ARRAY I AGAFAR UNA ALTRA ASSIGNATURA
 
     }
 
