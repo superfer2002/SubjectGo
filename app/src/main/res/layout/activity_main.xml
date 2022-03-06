@@ -7,7 +7,7 @@
     android:gravity="center"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="#15273C">
+    android:background="#15253F">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -18,7 +18,7 @@
 
         <TextView
             android:id="@+id/app_name"
-            android:layout_width="205dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/app_name"
@@ -34,13 +34,14 @@
         android:orientation="horizontal"
         android:background="@drawable/border"
         android:layout_marginBottom="5dp"
-        android:layout_marginTop="5dp">
+        android:layout_marginTop="5dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp">
 
         <ImageView
-            android:layout_width="216dp"
-            android:layout_height="106dp"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
             android:src="@drawable/aso_logo" />
 
         <Button
@@ -49,8 +50,8 @@
             android:layout_width="400dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
-            android:layout_marginBottom="-50dp"
-            android:backgroundTint="#365475"/>
+            android:layout_marginTop="25dp"
+            android:backgroundTint="#365475" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -58,8 +59,8 @@
             android:text="@string/subject1_desc"
             android:textColor="#171B1A"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="165dp"
-            android:textSize="15sp" />
+            android:layout_marginTop="120dp"
+            android:textSize="12sp" />
 
     </FrameLayout>
 
@@ -70,32 +71,34 @@
         android:orientation="horizontal"
         android:background="@drawable/border"
         android:layout_marginBottom="5dp"
-        android:layout_marginTop="5dp">
+        android:layout_marginTop="5dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp">
 
         <ImageView
-            android:layout_width="216dp"
-            android:layout_height="106dp"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
-            android:src="@drawable/dissenyEntorns" />
+            android:src="@drawable/disseny_entorns" />
 
         <Button
             android:id="@+id/subject2"
             android:text="@string/subject2"
             android:layout_width="400dp"
             android:layout_height="50dp"
+            android:layout_marginTop="25dp"
             android:layout_gravity="center"
-            android:layout_marginBottom="-50dp"
-            android:backgroundTint="#365475"/>
+            android:backgroundTint="#365475" />
 
         <TextView
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/subject1_desc"
+            android:text="@string/subject2_desc"
             android:textColor="#171B1A"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="165dp"
-            android:textSize="15sp" />
+            android:layout_marginTop="120dp"
+            android:textSize="12sp"/>
 
     </FrameLayout>
 
@@ -106,13 +109,14 @@
         android:orientation="horizontal"
         android:background="@drawable/border"
         android:layout_marginBottom="5dp"
-        android:layout_marginTop="5dp">
+        android:layout_marginTop="5dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp">
 
         <ImageView
-            android:layout_width="216dp"
-            android:layout_height="106dp"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
             android:src="@drawable/java" />
 
         <Button
@@ -121,17 +125,17 @@
             android:layout_width="400dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
-            android:layout_marginBottom="-50dp"
-            android:backgroundTint="#365475"/>
+            android:layout_marginTop="25dp"
+            android:backgroundTint="#365475" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/subject1_desc"
+            android:text="@string/subject3_desc"
             android:textColor="#171B1A"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="165dp"
-            android:textSize="15sp" />
+            android:layout_marginTop="120dp"
+            android:textSize="12sp" />
 
     </FrameLayout>
 
@@ -141,7 +145,7 @@
         android:layout_weight="0.2"
         android:orientation="horizontal"
         android:paddingTop="25dp"
-        android:background="#15273C">
+        android:background="#15253F">
     </FrameLayout>
 
 </LinearLayout>

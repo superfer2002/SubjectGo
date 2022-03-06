@@ -10,15 +10,15 @@
 
 
     <string name="subject1_LongDesc">En l\'assignatura d\'Administració de Sistemes Operatius es donen els coneixements bàsics necessaris per administrar
-        qualsevol sistema servidor, tant pel que fa al sistema operatiu com pel que fa als serveis oferts, aprofundint especialment en l'administració
+        qualsevol sistema servidor, tant pel que fa al sistema operatiu com pel que fa als serveis oferts, aprofundint especialment en l\'administració
         de sistemes amb sistemes operatius de la família UNIX.
     </string>
     <string name="subject2_LongDesc">Aquest assignatura permetrà a l\'alumne assolir els coneixements necessaris per a poder treballar en la
-        representació tridimensional de formes i espais,utilitzant les eines digitals més adequades. Els alumnes aprendran a texturitzar, il·luminar
+        representació tridimensional de formes i espais, utilitzant les eines digitals més adequades. Els alumnes aprendran a texturitzar, il·luminar
         i renderitzar entorns 3D.</string>
     <string name="subject3_LongDesc">L\'objectiu és que l\'alumne sigui capaç de plantejar solucions seguint un patró orientat a objectes així com implementar-les
-        en el llenguatge Java. Aquesta assignatura serà molt útil com a base per altres assignatures en que s'usen llenguatges orientats a objectes  i també pel
-        desenvolupament d'aplicacions mòbils</string>
+        en el llenguatge Java. Aquesta assignatura serà molt útil com a base per altres assignatures en que s\'usen llenguatges orientats a objectes i també pel
+        desenvolupament d\'aplicacions mòbils</string>
 
     <string name="subject1_teacher">Louis Armstrong</string>
     <string name="subject2_teacher">Elvis Presley</string>
